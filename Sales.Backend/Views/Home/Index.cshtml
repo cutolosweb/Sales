@@ -2,30 +2,131 @@
     ViewBag.Title = "Home Page";
 }
 
-<div class="jumbotron">
-    <h1>ASP.NET</h1>
-    <p class="lead">ASP.NET is a free web framework for building great Web sites and Web applications using HTML, CSS and JavaScript.</p>
-    <p><a href="https://asp.net" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
+<div class="container">
+    <div class="row">
+        <div class="col-xs-3 col-sm-3 col-sm-offset-4">
+            <img src="~/Images/Logos/Logo Cutolo Small.png" />
+        </div>
+    </div>
 </div>
-
-<div class="row">
-    <div class="col-md-4">
-        <h2>Getting started</h2>
-        <p>
-            ASP.NET MVC gives you a powerful, patterns-based way to build dynamic websites that
-            enables a clean separation of concerns and gives you full control over markup
-            for enjoyable, agile development.
-        </p>
-        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301865">Learn more &raquo;</a></p>
+<div class="container" style="margin-top:40px">
+    <div class="row">
+        <div class="col-sm-6">
+            <!-- Carousel
+            ================================================== -->
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                    <li data-target="#myCarousel" data-slide-to="3"></li>
+                    <li data-target="#myCarousel" data-slide-to="4"></li>
+                    <li data-target="#myCarousel" data-slide-to="5"></li>
+                    <li data-target="#myCarousel" data-slide-to="6"></li>
+                </ol>
+                <div class="carousel-inner" role="listbox">
+                    <div class="item active">
+                        <img class="first-slide" src="~/Images/Carrusel/img01.png" alt="First slide">
+                        <div class="container hidden-xs hidden-sm">
+                            <div class="carousel-caption">
+                                <h3>e-Commerce</h3>
+                                <!--
+                                    <p>Postre de Alejandra Karl.</p>
+                                    <p><a class="btn btn-lg btn-primary" href="#" role="button">Como lo hizo</a></p>
+                                -->    
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img class="second-slide" src="~/Images/Carrusel/img02.png" alt="Second slide">
+                        <div class="container hidden-xs hidden-sm">
+                            <div class="carousel-caption">
+                                <h3>Marketing Digital</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img class="third-slide" src="~/Images/Carrusel/img03.png" alt="Third slide">
+                        <div class="container hidden-xs hidden-sm">
+                            <div class="carousel-caption">
+                                <h3>Negocios OnLine</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="~/Images/Carrusel/img04.png" alt="Fourth slide">
+                        <div class="container hidden-xs hidden-sm">
+                            <div class="carousel-caption">
+                                <h3>Moderna Plataforma Web</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img class="five-slide" src="~/Images/Carrusel/img05.png" alt="Five slide">
+                        <div class="container hidden-xs hidden-sm">
+                            <div class="carousel-caption">
+                                <h3>Framework Lider del Mercado</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img class="six-slide" src="~/Images/Carrusel/img06.png" alt="Six slide">
+                        <div class="container hidden-xs hidden-sm">
+                            <div class="carousel-caption">
+                                <h3>Dipositivos Inteligentes</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="~/Images/Carrusel/img07.png" alt="Seven slide">
+                        <div class="container hidden-xs hidden-sm">
+                            <div class="carousel-caption">
+                                <h3>Solida Programacion</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+            <!-- /.carousel -->
+        </div>
+        <div class="col-sm-6">
+            <h1>Cutolos.NET</h1>
+            <p class="lead">Suscribete y comienza a disfrutar de la mas Novedosa, Practica y Amigable Plataforma de App'S.</p>
+            <p class="lead">Asesoramos las Principales Actividades de Negocio.</p>
+            <p class="lead">Compatibilidad iOS/Win/Android - Dipositivos Inteligentes</p>
+            <p><a href="https://www.cutolos.com" class="btn btn-primary btn-lg">Ver mas &raquo;</a></p>
+        </div>
     </div>
-    <div class="col-md-4">
-        <h2>Get more libraries</h2>
-        <p>NuGet is a free Visual Studio extension that makes it easy to add, remove, and update libraries and tools in Visual Studio projects.</p>
-        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301866">Learn more &raquo;</a></p>
-    </div>
-    <div class="col-md-4">
-        <h2>Web Hosting</h2>
-        <p>You can easily find a web hosting company that offers the right mix of features and price for your applications.</p>
-        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301867">Learn more &raquo;</a></p>
+</div>
+<div class="container" style="margin-top:40px">
+    <div class="row well">
+        <div class="col-md-4">
+            <h3>Asesores e-Comerce - MIS</h3>
+            <p>Incorporate al comercio electronico desde nuestra plataforma.</p>
+            <p>Somos Asesores especializados en Gerencia de Sistemas de Informacion.</p>
+            <p>(Managment Information System - MIS)</p>
+            <p><a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301865">Ver mas &raquo;</a></p>
+        </div>
+        <div class="col-md-4">
+            <h3>Creamos Soluciones</h3>
+            <p>Soluciones Empresariales OnLine</p>
+            <p>Web.Api Mvc.Net - EF.Net LinkQ C# - Razor-Crud</p>
+            <p>Visual Studio Projects - Oracle MySql - MS.Sql</p>
+            <p><a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301866">Var mas &raquo;</a></p>
+        </div>
+        <div class="col-md-4">
+            <h3>Hazlo Tu Mismo</h3>
+            <p>Canal de Turoriales. Iniciate en el mundo Web siguiendo nuestros canales de adiestramiento</p>
+            <p><a class="btn btn-default" href="https://www.w3schools.com">Tutoriales &raquo;</a></p>
+        </div>
     </div>
 </div>
