@@ -190,6 +190,14 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="Images\Carrusel\img01.png" />
+    <Content Include="Images\Carrusel\img02.png" />
+    <Content Include="Images\Carrusel\img03.png" />
+    <Content Include="Images\Carrusel\img04.png" />
+    <Content Include="Images\Carrusel\img05.png" />
+    <Content Include="Images\Carrusel\img06.png" />
+    <Content Include="Images\Carrusel\img07.png" />
+    <Content Include="Images\Logos\Logo Cutolo Small.png" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
@@ -245,7 +253,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Images\Carrusel\" />
     <Folder Include="Properties\PublishProfiles\" />
   </ItemGroup>
   <ItemGroup>
